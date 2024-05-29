@@ -15,6 +15,9 @@
             padding: 20px 0;
             text-align: center;
         }
+        .img-fluid {
+            max-width: 300px;
+        }
     </style>
 </head>
 <body>
@@ -48,21 +51,43 @@
     <div class="container mt-5">
         <section id="benefits">
             <h2>Az alternatívák előnyei</h2>
-            
-            <h3>AMD Ryzen</h3>
-            <p>Az AMD Ryzen processzorok kiemelkedő ár-érték arányt kínálnak, különösen a többmagos teljesítmény terén. Az utóbbi években az AMD folyamatosan innovál, versenyre kelve az Intellel a csúcsteljesítményű piacon. Az AMD Ryzen processzorok kiválóan teljesítenek játékokban és professzionális alkalmazásokban egyaránt. Az energiahatékonyságuk is figyelemre méltó, alacsonyabb hőtermeléssel és fogyasztással, ami hűvösebb és csendesebb működést eredményez. Emellett az AMD elkötelezett a felhasználói közösség támogatása iránt, rendszeres BIOS és driver frissítésekkel. Az árak általában alacsonyabbak, mint az Intel hasonló kategóriájú termékei, így a költségvetés-barát felhasználók számára is vonzó lehetőség. Az AMD processzorokkal rendelkező laptopok és asztali gépek széles választéka elérhető a piacon. A többmagos teljesítmény és a magas szintű párhuzamos feldolgozás ideálissá teszi az AMD Ryzent a kreatív munkákhoz, mint a videószerkesztés és 3D renderelés. Az AMD folyamatosan fejleszti és bővíti ökoszisztémáját, biztosítva, hogy a felhasználók hozzáférjenek a legújabb technológiákhoz és funkciókhoz.</p>
-            
-            <h3>Apple M1</h3>
-            <p>Az Apple M1 processzor forradalmasította a személyi számítógépek piacát, elképesztő teljesítményt és energiahatékonyságot kínálva. Az ARM architektúrára épülő M1 chip integrált memóriával rendelkezik, ami jelentősen javítja az adatfeldolgozási sebességet és csökkenti az energiafogyasztást. Az Apple M1 processzoros eszközök hosszabb akkumulátor-élettartamot kínálnak, így ideálisak mobil használatra. Az M1 chip bevezetése óta az Apple eszközök, mint a MacBook Air, MacBook Pro és Mac Mini, mind kiemelkedő teljesítményt nyújtanak, különösen az optimalizált macOS operációs rendszerrel. Az Apple ökoszisztémájába való integráció zökkenőmentes felhasználói élményt biztosít, az eszközök közötti egyszerű váltással és szinkronizálással. Az M1 processzor hatékony hőkezeléssel rendelkezik, ami csendes működést és alacsonyabb hőmérsékletet eredményez. Az Apple saját fejlesztésű GPU-ja kiváló grafikai teljesítményt nyújt, ami ideális a kreatív szakemberek számára. Az M1 chip AI-funkciói és gépi tanulási képességei új lehetőségeket nyitnak meg a fejlesztők és a felhasználók számára egyaránt. Az Apple M1 processzor innovatív architektúrája lehetővé teszi az alkalmazások gyorsabb futtatását és az erőforrások hatékonyabb kihasználását. Az M1 processzorral ellátott eszközök nemcsak teljesítményükben, hanem dizájnjukban és felhasználói élményükben is kiemelkednek.</p>
-            
-            <h3>ARM processzorok</h3>
-            <p>Az ARM processzorok rendkívül sokoldalúak és széles körben használatosak, különösen a mobil eszközök és beágyazott rendszerek terén. Az ARM architektúra alacsony energiafogyasztásáról ismert, ami hosszabb akkumulátor-élettartamot biztosít a mobiltelefonok, tabletek és egyéb hordozható eszközök számára. Az ARM processzorok kiváló teljesítményt nyújtanak alacsony fogyasztás mellett, ami ideális a hőkezelés és az energiahatékonyság szempontjából. Az ARM architektúra licencelhető, ami lehetővé teszi számos gyártó számára, hogy saját igényeikre szabott processzorokat fejlesszenek. Ez a rugalmasság elősegítette az ARM technológia gyors terjedését a különböző piaci szegmensekben, beleértve az IoT eszközöket, okos otthonokat és ipari alkalmazásokat. Az ARM-alapú processzorok skálázhatósága lehetővé teszi, hogy kis teljesítményű mikrokontrollerektől a nagy teljesítményű szerverekig mindenhol megtalálhatóak legyenek. Az ARM ökoszisztéma támogatja a legújabb technológiai újításokat, mint a 5G és az AI, amelyek jelentősen javítják az eszközök képességeit és felhasználói élményét. Az ARM processzorokkal ellátott eszközök gyakran kisebbek és könnyebbek, ami további előnyt jelent a hordozhatóság szempontjából. Az ARM architektúra fejlesztése és optimalizálása folyamatos, ami biztosítja, hogy a felhasználók mindig a legmodernebb technológiát kapják. Az ARM processzorokkal rendelkező eszközök széles választéka elérhető, beleértve a prémium kategóriás okostelefonokat, tableteket és egyéb hordozható eszközöket.</p>
-        </section>
+            <table class="table table-bordered">
+                <thead class="thead-dark">
+                    <tr>
+                        <th>Alternatíva</th>
+                        <th>Előnyök</th>
+                        <th>Kép</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td><strong>AMD Ryzen</strong></td>
+                        <td>Az AMD Ryzen processzorok kiemelkedő ár-érték arányt kínálnak, különösen a többmagos teljesítmény terén. Az utóbbi években az AMD folyamatosan innovál, versenyre kelve az Intellel a csúcsteljesítményű piacon. Az AMD Ryzen processzorok kiválóan teljesítenek játékokban és professzionális alkalmazásokban egyaránt. Az energiahatékonyságuk is figyelemre méltó, alacsonyabb hőtermeléssel és fogyasztással, ami hűvösebb és csendesebb működést eredményez. Emellett az AMD elkötelezett a felhasználói közösség támogatása iránt, rendszeres BIOS és driver frissítésekkel. Az árak általában alacsonyabbak, mint az Intel hasonló kategóriájú termékei, így a költségvetés-barát felhasználók számára is vonzó lehetőség. Az AMD processzorokkal rendelkező laptopok és asztali gépek széles választéka elérhető a piacon. A többmagos teljesítmény és a magas szintű párhuzamos feldolgozás ideálissá teszi az AMD Ryzent a kreatív munkákhoz, mint a videószerkesztés és 3D renderelés. Az AMD folyamatosan fejleszti és bővíti ökoszisztémáját, biztosítva, hogy a felhasználók hozzáférjenek a legújabb technológiákhoz és funkciókhoz.</td>
+                        <td><img src="images (2).jpg" alt="AMD Ryzen" class="img-fluid"></td>
+                    </tr>
+                    <tr>
+                        <td><strong>Apple M1</strong></td>
+                        <td>Az Apple M1 processzor forradalmasította a személyi számítógépek piacát, elképesztő teljesítményt és energiahatékonyságot kínálva. Az ARM architektúrára épülő M1 chip integrált memóriával rendelkezik, ami jelentősen javítja az adatfeldolgozási sebességet és csökkenti az energiafogyasztást. Az Apple M1 processzoros eszközök hosszabb akkumulátor-élettartamot kínálnak, így ideálisak mobil használatra. Az M1 chip bevezetése óta az Apple eszközök, mint a MacBook Air, MacBook Pro és Mac Mini, mind kiemelkedő teljesítményt nyújtanak, különösen az optimalizált macOS operációs rendszerrel. Az Apple ökoszisztémájába való integráció zökkenőmentes felhasználói élményt biztosít, az eszközök közötti egyszerű váltással és szinkronizálással. Az M1 processzor hatékony hőkezeléssel rendelkezik, ami csendes működést és alacsonyabb hőmérsékletet eredményez. Az Apple saját fejlesztésű GPU-ja kiváló grafikai teljesítményt nyújt, ami ideális a kreatív szakemberek számára. Az M1 chip AI-funkciói és gépi tanulási képességei új lehetőségeket nyitnak meg a fejlesztők és a felhasználók számára egyaránt. Az Apple M1 processzor innovatív architektúrája lehetővé teszi az alkalmazások gyorsabb futtatását és az erőforrások hatékonyabb kihasználását. Az M1 processzorral ellátott eszközök nemcsak teljesítményükben, hanem dizájnjukban és felhasználói élményükben is kiemelkednek.</td>
+                        <td><img src="img1.jpg" alt="Apple M1" class="img-fluid"></td>
+                    </tr>
+                    <tr>
+                        <td><strong>ARM processzorok</strong></td>
+                        <td>Az ARM processzorok rendkívül sokoldalúak és széles körben használatosak, különösen a mobil eszközök és beágyazott rendszerek terén. Az ARM architektúra alacsony energiafogyasztásáról ismert, ami hosszabb akkumulátor-élettartamot biztosít a mobiltelefonok, tabletek és egyéb hordozható eszközök számára. Az ARM processzorok kiváló teljesítményt nyújtanak alacsony fogyasztás mellett, ami ideális a hőkezelés és az energiahatékonyság szempontjából. Az ARM architektúra licencelhető, ami lehetővé teszi számos gyártó számára, hogy saját igényeikre szabott processzorokat fejlesszenek. Ez a rugalmasság elősegítette az ARM technológia gyors terjedését a különböző piaci szegmensekben, beleértve az IoT eszközöket, okos otthonokat és ipari alkalmazásokat. Az ARM-alapú processzorok skálázhatósága lehetővé teszi, hogy kis teljesítményű mikrokontrollerektől a nagy teljesítményű szerverekig mindenhol megtalálhatóak legyenek. Az ARM ökoszisztéma támogatja a legújabb technológiai újításokat, mint a 5G és az AI, amelyek jelentősen javítják az eszközök képességeit és felhasználói élményét. Az ARM processzorokkal ellátott eszközök gyakran kisebbek és könnyebbek, ami további előnyt jelent a hordozhatóság szempontjából. Az ARM architektúra fejlesztése és optimalizálása folyamatos, ami biztosítja, hogy a felhasználók mindig a legmodernebb technológiát kapják. Az ARM processzorokkal rendelkező eszközök széles választéka elérhető, beleértve a prémium kategóriás okostelefonokat, tableteket és egyéb hordozható eszközöket.</td>
+                            <td><img src="img2.jpg" alt="ARM Processors" class="img-fluid float-right"></td>
+                        </tr>
+                    </tbody>
+                </table>
+            </section>
+    
+            <section id="conclusion" class="mt-5">
+                <h2>Összegzés</h2>
+                <p>Az Intel alternatívák választása számos előnnyel jár, amelyek közül az AMD Ryzen, Apple M1 és ARM processzorok kiemelkednek. Mindegyik alternatíva egyedi előnyöket kínál, legyen szó ár-érték arányról, teljesítményről vagy energiahatékonyságról. Az ezekkel a processzorokkal szerelt eszközök biztosítják, hogy a felhasználók a lehető legjobb technológiát kapják, amely megfelel az egyéni igényeiknek és elvárásaiknak.</p>
+            </section>
+        </div>
+    
 
-        <section id="conclusion" class="mt-5">
-            <h2>Összegzés</h2>
-            <p>Az Intel alternatívák választása számos előnnyel jár, amelyek közül az AMD Ryzen, Apple M1 és ARM processzorok kiemelkednek. Mindegyik alternatíva egyedi előnyöket kínál, legyen szó ár-érték arányról, teljesítményről vagy energiahatékonyságról. Az ezekkel a processzorokkal szerelt eszközök biztosítják, hogy a felhasználók a lehető legjobb technológiát kapják, amely megfelel az egyéni igényeiknek és elvárásaiknak.</p>
-        </section>
-    </div>
-</body>
-</html>
+        <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js" integrity="sha384-erFpF1t3kXfUn1TrhjiuREb3UUIAX1F9KAVEmm/lTRVvFtMyOY5kypyoYlmrB6Xr" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js" integrity="sha384-tgDylgE7Z4Jstnzh+d5+aSRUHeW4YWX/Bs/+Jot6fgjEjl8hMr2qC2j9I+69GhT9" crossorigin="anonymous"></script>
+    </body>
+    </html>
+    
