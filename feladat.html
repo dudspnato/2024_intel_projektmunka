@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="hu">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Miért rossz az Intel</title>
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <style>
+        body {
+            padding-top: 56px;
+        }
+        .header {
+            background-color: #343a40;
+            color: white;
+            padding: 20px 0;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+        <a class="navbar-brand" href="#">Intel Kritikák</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+                <li class="nav-item active">
+                    <a class="nav-link" href="#home">Kezdőlap</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#problems">Problémák</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#alternatives">Alternatívák</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#contact">Kapcsolat</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <header class="header" id="home">
+        <h1>Miért rossz az Intel</h1>
+        <p>Az alábbiakban részletezzük az Intel problémáit és alternatív megoldásokat kínálunk.</p>
+    </header>
+
+    <div class="container mt-5">
+        <section id="problems">
+            <h2>Problémák az Intel-lel</h2>
+            <ul>
+                <li>Magas árak a versenytársakhoz képest</li>
+                <li>Gyenge innováció az utóbbi években</li>
+                <li>Magas energiafogyasztás</li>
+                <li>Biztonsági problémák (pl. Meltdown és Spectre sebezhetőségek)</li>
+                <li>Elmaradt technológiai fejlesztések (10 nm-es gyártási problémák)</li>
+            </ul>
+        </section>
+
+        <section id="alternatives" class="mt-5">
+            <h2>Alternatívák az Intel helyett</h2>
+            <p>Az alábbiakban bemutatunk néhány alternatívát az Intel processzorok helyett:</p>
+            <ul>
+                <li><strong>AMD Ryzen:</strong> Kiváló ár-érték arány, alacsonyabb energiafogyasztás.</li>
+                <li><strong>Apple M1:</strong> Magas teljesítmény, alacsony energiafogyasztás, kiváló integráció az Apple termékekkel.</li>
+                <li><strong>ARM processzorok:</strong> Sokoldalú felhasználási lehetőségek, alacsony energiafogyasztás.</li>
+            </ul>
+        </section>
+
+        <section id="contact" class="mt-5">
+            <h2>Kapcsolat</h2>
+            <p>Ha bármilyen kérdése van, kérjük, lépjen kapcsolatba velünk az alábbi űrlapon keresztül:</p>
+            <form>
+                <div class="form-group">
+                    <label for="name">Név</label>
+                    <input type="text" class="form-control" id="name" placeholder="Adja meg a nevét">
+                </div>
+                <div class="form-group">
+                    <label for="email">Email cím</label>
+                    <input type="email" class="form-control" id="email" placeholder="Adja meg az email címét">
+                </div>
+                <div class="form-group">
+                    <label for="message">Üzenet</label>
+                    <textarea class="form-control" id="message" rows="3" placeholder="Írja meg üzenetét"></textarea>
+                </div>
+                <button type="submit" class="btn btn-primary">Küldés</button>
+            </form>
+        </section>
+    </div>
+
+ 
+</body>
+</html>
