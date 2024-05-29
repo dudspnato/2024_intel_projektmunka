@@ -1,3 +1,4 @@
 # 2024_intel_projektmunka
-Projekt munka 
+Projekt munka
+
 Készítette:Hardi Péter, Horváth Máté, Kadácsi Bence
