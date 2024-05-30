@@ -31,6 +31,21 @@
             background-color: rgba(255, 255, 255, 0.8); 
             padding: 20px;
             border-radius: 10px;
+                }
+        .header {
+            background-color: rgba(52, 58, 64, 0.8);
+            color: white;
+            padding: 20px 0;
+            text-align: center;
+        }
+        .problems-section {
+            display: flex;
+            justify-content: space-between;
+            align-items: flex-start;
+            gap: 30px;
+            background-color: rgba(255, 255, 255, 0.8); 
+            padding: 20px;
+            border-radius: 10px;
         }
         .problems-section img {
             max-width: 100px;
@@ -40,6 +55,15 @@
             padding: 20px;
             border-radius: 10px;
         }
+        @keyframes colorChange {
+            0% { background-color: red; }
+            50% { background-color: blue; }
+            100% { background-color: red; }
+        }
+        .navbar {
+            animation: colorChange 3950ms infinite;
+        }
+
     </style>
 </head>
 <body>
