@@ -37,14 +37,22 @@
             padding: 20px;
             border-radius: 10px;
         }
+        @keyframes colorChange {
+            0% { background-color: red; }
+            50% { background-color: blue; }
+            100% { background-color: red; }
+        }
+        .navbar {
+            animation: colorChange 3950ms infinite;
+        }
     </style>
 </head>
 <body>
-    <nav class="navbar navbar-expand-lg navbar-dark fixed-top" style="background-color: red;">
+    <nav class="navbar navbar-expand-lg navbar-dark fixed-top">
         <a class="navbar-brand" href="#">
             <img src="https://upload.wikimedia.org/wikipedia/commons/6/64/Intel-logo-2022.png" alt="" height="50">
             <img src="https://cdn.worldvectorlogo.com/logos/ryzen-amd-1.svg" alt="AMD Logo" height="50">
-          </a>
+        </a>
         <a class="navbar-brand" href="#">Amd-Intel problémák</a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
