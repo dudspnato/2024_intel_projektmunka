@@ -1,0 +1,274 @@
+<!DOCTYPE html>
+<html lang="hu">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Összehasonlítás</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <style>
+        body {
+            padding-top: 56px;
+            background-image: url('https://austinlily.com/wp-content/uploads/2017/09/blue-and-red-gradient-wallpaper-58835-60612-hd-wallpapers.png'); 
+            background-size: cover;
+            background-attachment: fixed;
+            background-repeat: no-repeat;
+            background-position: center center;
+        }
+        .header {
+            background-color: rgba(52, 58, 64, 0.8);
+            color: white;
+            padding: 20px 0;
+            text-align: center;
+        }
+        .problems-section {
+            background-color: rgba(255, 255, 255, 0.8); 
+            padding: 20px;
+            border-radius: 10px;
+        }
+        .problem-content {
+            display: flex;
+            flex-direction: column;
+            gap: 30px;
+        }
+        .problem-content img {
+            max-width: 100px;
+        }
+        .container {
+            background-color: rgba(255, 255, 255, 0.8);
+            padding: 20px;
+            border-radius: 10px;
+        }
+        @keyframes colorChange {
+            0% { background-color: red; }
+            50% { background-color: blue; }
+            100% { background-color: red; }
+        }
+        .navbar {
+            animation: colorChange 3950ms infinite;
+        }
+    </style>
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark fixed-top">
+        <a class="navbar-brand" href="#">
+            <img src="https://pbs.twimg.com/media/F0YcOD9aIAEuD-9.jpg" alt="AMD és Intel Logo" height="50">
+        </a>
+        <a class="navbar-brand" href="#">Összehasonlítás</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+                <li class="nav-item active">
+                    <a class="nav-link" href="index.html">Kezdőlap</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="2index.html">Alternatívák</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="index3.html">AMD-Intel problémák</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="index4.html">Videókártyák</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <header class="header">
+        <h1>Összehasonlítás</h1>
+        <p>Az alábbi oldalon, arról lesz szó ,hogy melyik gyártó termékét érdemes megvenni! Főként az ujabb procceszorokról lesz szó!</p>
+    </header>
+    <div class="container mt-5">
+        <section id="problems" class="problems-section">
+            <div class="problem-content">
+                <table class="table table-bordered">
+                    <thead>
+                        <tr>
+                            <th>Játék</th>
+                            <th>Felbontás</th>
+                            <th>AMD Ryzen 5 5600X </th>
+                            <th>AMD Ryzen 5 3600X </th>
+                            <th>AMD Ryzen 7 5800X </th>
+                            <th>AMD Ryzen 7 7900X3D</th>
+                            <th>Intel i5-12400F </th>
+                            <th>Intel i5-11400F </th>
+                            <th>Intel i3-10105 </th>
+                            <th>Intel i7-9700K </th>
+                            <th>AMD Ryzen 5 4500 </th>
+                            <th>Intel i5-10400F </th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>Cyberpunk 2077</td>
+                            <td>1080p</td>
+                            <td>78 FPS</td>
+                            <td>70 FPS</td>
+                            <td>85 FPS</td>
+                            <td>100 FPS</td>
+                            <td>85 FPS</td>
+                            <td>80 FPS</td>
+                            <td>60 FPS</td>
+                            <td>90 FPS</td>
+                            <td>65 FPS</td>
+                            <td>75 FPS</td>
+                        </tr>
+                        <tr>
+                            <td>Assassin's Creed Valhalla</td>
+                            <td>1080p</td>
+                            <td>92 FPS</td>
+                            <td>88 FPS</td>
+                            <td>98 FPS</td>
+                            <td>115 FPS</td>
+                            <td>89 FPS</td>
+                            <td>85 FPS</td>
+                            <td>70 FPS</td>
+                            <td>100 FPS</td>
+                            <td>72 FPS</td>
+                            <td>80 FPS</td>
+                        </tr>
+                        <tr>
+                            <td>Call of Duty: Warzone</td>
+                            <td>1080p</td>
+                            <td>144 FPS</td>
+                            <td>135 FPS</td>
+                            <td>150 FPS</td>
+                            <td>170 FPS</td>
+                            <td>139 FPS</td>
+                            <td>130 FPS</td>
+                            <td>100 FPS</td>
+                            <td>155 FPS</td>
+                            <td>110 FPS</td>
+                            <td>120 FPS</td>
+                        </tr>
+                        <tr>
+                            <td>Shadow of the Tomb Raider</td>
+                            <td>1080p</td>
+                            <td>110 FPS</td>
+                            <td>105 FPS</td>
+                            <td>115 FPS</td>
+                            <td>130 FPS</td>
+                            <td>115 FPS</td>
+                            <td>110 FPS</td>
+                            <td>85 FPS</td>
+                            <td>120 FPS</td>
+                            <td>95 FPS</td>
+                            <td>105 FPS</td>
+                        </tr>
+                        <tr>
+                            <td>Fortnite</td>
+                            <td>1080p</td>
+                            <td>165 FPS</td>
+                            <td>155 FPS</td>
+                            <td>170 FPS</td>
+                            <td>190 FPS</td>
+                            <td>160 FPS</td>
+                            <td>150 FPS</td>
+                            <td>120 FPS</td>
+                            <td>175 FPS</td>
+                            <td>130 FPS</td>
+                            <td>140 FPS</td>
+                        </tr>
+                        <tr>
+                            <td>Payday 2</td>
+                            <td>1080p</td>
+                            <td>200 FPS</td>
+                            <td>190 FPS</td>
+                            <td>210 FPS</td>
+                            <td>230 FPS</td>
+                            <td>205 FPS</td>
+                            <td>195 FPS</td>
+                            <td>180 FPS</td>
+                            <td>220 FPS</td>
+                            <td>185 FPS</td>
+                            <td>190 FPS</td>
+                        </tr>
+                        <tr>
+                            <td>Battlefield 1</td>
+                            <td>1080p</td>
+                            <td>120 FPS</td>
+                            <td>115 FPS</td>
+                            <td>130 FPS</td>
+                            <td>145 FPS</td>
+                            <td>125 FPS</td>
+                            <td>120 FPS</td>
+                            <td>100 FPS</td>
+                            <td>140 FPS</td>
+                            <td>110 FPS</td>
+                            <td>115 FPS</td>
+                        </tr>
+                        <tr>
+                            <td>GTA V</td>
+                            <td>1080p</td>
+                            <td>100 FPS</td>
+                            <td>95 FPS</td>
+                            <td>110 FPS</td>
+                            <td>125 FPS</td>
+                            <td>105 FPS</td>
+                            <td>100 FPS</td>
+                            <td>85 FPS</td>
+                            <td>115 FPS</td>
+                            <td>90 FPS</td>
+                            <td>95 FPS</td>
+                        </tr>
+                        <tr>
+                            <td>GTA IV</td>
+                            <td>1080p</td>
+                            <td>90 FPS</td>
+                            <td>85 FPS</td>
+                            <td>95 FPS</td>
+                            <td>110 FPS</td>
+                            <td>92 FPS</td>
+                            <td>90 FPS</td>
+                            <td>80 FPS</td>
+                            <td>100 FPS</td>
+                            <td>82 FPS</td>
+                            <td>88 FPS</td>
+                        </tr>
+                        <tr>
+                            <td>Minecraft</td>
+                            <td>1080p</td>
+                            <td>250 FPS</td>
+                            <td>240 FPS</td>
+                            <td>260 FPS</td>
+                            <td>280 FPS</td>
+                            <td>255 FPS</td>
+                            <td>245 FPS</td>
+                            <td>230 FPS</td>
+                            <td>270 FPS</td>
+                            <td>235 FPS</td>
+                            <td>240 FPS</td>
+                        </tr>
+                        <tr>
+                            <td>Tom Clancy's Rainbow Six Siege</td>
+                            <td>1080p</td>
+                            <td>200 FPS</td>
+                            <td>190 FPS</td>
+                            <td>210 FPS</td>
+                            <td>230 FPS</td>
+                            <td>205 FPS</td>
+                            <td>195 FPS</td>
+                            <td>180 FPS</td>
+                            <td>220 FPS</td>
+                            <td>185 FPS</td>
+                            <td>190 FPS</td>
+                        </tr>
+                    </tbody>
+                </table>
+                <div class="mt-3">
+                    <p><strong>Legjobb ár-érték arányú processzorok:</strong></p>
+                    <p>
+                        <img src="https://media.icdn.hu/product/GalleryMod/2020-11/663952/resp/1542905_amd_ryzen_5_5600x_370ghz_am4_oem_100_000000065.webp" alt="AMD Ryzen 5 5600X" style="max-width: 55px;">
+                        AMD részéről: <strong>AMD Ryzen 5 5600X</strong>
+                    </p>
+                    <p>
+                        <img src="https://media.icdn.hu/product/GalleryMod/2022-01/744574/resp/1790137_intel-core-i5-12400f-250ghz-lga-1700-oem.webp" alt="Intel i5-12400F" style="max-width: 55px;">
+                        Intel részéről: <strong>Intel i5-12400F</strong>
+                    </p>
+                </div>
+            </div>
+        </section>
+    </div>
+</body>
+</html>
